@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.cardbox-container {
+    background: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.card {
+    margin: 15px;
+    background-color: rgb(183, 177, 224);
+}
+
+.character-container {
+    background-color: rgb(165, 237, 243);
+    width: 100%;
+    height: 100vh;
+}
+
+.Marge {
+    background-color: rgb(77, 181, 245);
+    width: 30%;
+    height: 100%;
+}
+
+.Homero {
+    background-color: rgb(245, 77, 77);
+    width: 35%;
+    height: 25%;
+
+}
+
+.Bart {
+    background-color: rgb(43, 144, 226);
+    width: 35%;
+    height: 25%;
+}
+
+.Lisa {
+    background-color: rgb(192, 92, 250);
+    width: 35%;
+    height: 25%;
+}
+
+.Maggie {
+    background-color: rgb(165, 243, 87);
+    width: 35%;
+    height: 25%;
+}
+
